@@ -7,9 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="author" content="DrivenData" />
   <link rel="icon" href="https://drivendata-public-assets.s3.amazonaws.com/drivendata-favicon.ico">
-  <meta http-equiv="refresh" content="8; URL=https://cookiecutter-data-science.drivendata.org/" />
+  <meta http-equiv="refresh" content="0; URL=https://cookiecutter-data-science.drivendata.org/" />
   <link rel="canonical" href="https://cookiecutter-data-science.drivendata.org/" />
   <style>
+    body {
+      display: none;
+    }
+
     .main {
       margin-top: 5em;
       display: flex;
@@ -18,20 +22,32 @@
     }
 
     .content {
-      padding: 1em;
-      border: 1px dotted rgb(24, 52, 74);
-      ;
       color: rgb(24, 52, 74);
-      font-size: 18px;
+      font-size: 14px;
       font-family: Helvetica, Arial, sans-serif;
       line-height: 1.75em;
-      max-width: 40em;
+      max-width: 840px;
+      text-align: center;
+    }
+
+    .intro {
+      padding: 1em;
+    }
+
+    .notice {
+      font-size: 1.33em;
+      padding: 1em;
+      border: 1px dotted rgb(24, 52, 74);
     }
 
     .content h1 {
-      font-size: 3em;
+      font-size: 1.75em;
       font-weight: 400;
-      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    .content h2 {
+      font-size: 2.25em;
+      font-weight: 400;
     }
   </style>
 </head>
@@ -39,22 +55,23 @@
 <body>
   <div class="main">
     <div class="content">
+      <div class="intro">
       <h1>Cookiecutter Data Science</h1>
       <p>
         <i>A logical, flexible, and reasonably standardized project structure for doing and sharing data science
           work.</i>
       </p>
-      <h2>We've moved!</h2>
-      <p>
-        Cookiecutter Data Science has moved to a new domain:
-      </p>
-      <p>
-        <a
-          href="https://cookiecutter-data-science.drivendata.org/">https://cookiecutter-data-science.drivendata.org/</a>
-      </p>
-      <p>
-        You should be redirected there automatically in a few seconds.
-      </p>
+      </div>
+      <div class="notice">
+        <h2>We've moved!</h2>
+        <p>
+          <a
+            href="https://cookiecutter-data-science.drivendata.org/">https://cookiecutter-data-science.drivendata.org/</a>
+        </p>
+        <p>
+          You will be redirected in a few seconds.
+        </p>
+      </div>
     </div>
   </div>
 </body>
